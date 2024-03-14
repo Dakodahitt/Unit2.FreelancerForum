@@ -1,6 +1,18 @@
-
+h1{
+    display: flex;
+    justify-content: center;
+}
+.averagePrice{
+    display: flex;
+    justify-content: center;
+}
 .lancer{
     display: flex;
     justify-content: space-evenly;
     font-size: 35px;
+}
+div{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 25px;
 }
