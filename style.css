@@ -2,17 +2,35 @@ h1{
     display: flex;
     justify-content: center;
 }
-.averagePrice{
+p{
     display: flex;
     justify-content: center;
+    font-size: 35px;
 }
 .lancer{
     display: flex;
     justify-content: space-evenly;
     font-size: 35px;
 }
-div{
+li{
     display: flex;
     justify-content: space-evenly;
     font-size: 25px;
+    min-height: auto;
 }
+#freelancers {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+    max-height: 300px; 
+    overflow-y:auto ; /* Enable vertical scrollbar when content exceeds max height */
+}
+
+#freelancers li {
+    width: calc(33.33% - 20px); 
+    margin: 10p
+    padding' 10px;
+    box-sizing' border-box;
+}
+
